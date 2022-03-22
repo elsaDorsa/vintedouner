@@ -6,7 +6,7 @@ services:
     image: vinted-discord-bot:3.17
     environment:
       VINTED_BOT_ADMIN_IDS: "190834548886470657"
-      VINTED_BOT_TOKEN: "OTUwNDA3ODY5MjczMTAwMzM4.YiYeTQ.aHjpLAS9bwdieoeV0Vm9KwOw6vQ"
+      VINTED_BOT_TOKEN: process.env.token
       POSTGRES_DB: vinted_bot
       POSTGRES_USER: root
       POSTGRES_PASSWORD: password
